@@ -20,12 +20,23 @@ h1{
     width: 1170px;
     margin: 50px auto;
 }
-.boxes .box{
-    width: 80px;
-    height: 80px;
-    background-color: #1389b2;
+.box{
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
+}
+.boxes .box-general{
+    background-color: #1389b2;
+}
+.boxes .box-yellow{
+    background-color: #ffd166;
+}
+.boxes .box-red{
+    background-color: #f0466f;
+}
+.boxes .box-green{
+    background-color: #0bd6a1;
 }
