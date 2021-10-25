@@ -4,3 +4,28 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    background-color: #083b4c;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: 50px auto;
+}
+.boxes .box{
+    width: 80px;
+    height: 80px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
